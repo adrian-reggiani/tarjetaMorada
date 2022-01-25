@@ -96,7 +96,7 @@ body{
     color: var(--blanco);
 }
 
-@media (max-width:375px){
+@media (max-width:450px){
     .tarjeta{
         display: flex;
         flex-direction: column-reverse;
