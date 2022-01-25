@@ -101,13 +101,38 @@ body{
         display: flex;
         flex-direction: column-reverse;
         width: 300px;
-        margin-top: 20px;
-        
+        margin: 40px 0; 
     }
 
-    
-    
-    .contenedor{
-        
+    .tarjeta__informacion{
+        margin: 35px 30px;
+        text-align: center;
+
     }
+    
+    .tarjeta__informacion h1 {
+        font-size: 25px;
+    }
+
+    .tarjeta__informacion p {
+        line-height: 20px;
+    }
+
+    .tarjeta__informacion__pie{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 30px;
+    }
+
+    .tarjeta__informacion__pie div{
+        margin-bottom: 20px;
+    }
+
+    .tarjeta__informacion__pie div:last-child{
+        margin-bottom: -20px;
+
+    }
+
+
 }
